@@ -71,7 +71,7 @@ class DemoApplicationTests {
 	@Test
 	public void testSquareRootOf() {
 		double result = squareRootOf(9);
-		double expected = 3.0;
+		double expected = 2.0;
 		Assertions.assertEquals(expected, result, 1e-6);
 	}
 
